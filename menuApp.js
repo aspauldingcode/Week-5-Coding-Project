@@ -163,6 +163,12 @@ class Menu {
   }
 }
 
-let menu = new Menu();
-menu.start();
+//add delay for background html to load first! or attmept to!
+var waitWaitholdOn = 400;
 
+setTimeout(function() {
+  //starts my program! 
+  let menu = new Menu();
+  menu.start();
+
+}, waitWaitholdOn);
